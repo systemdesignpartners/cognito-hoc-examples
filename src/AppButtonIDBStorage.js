@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React, { Component } from 'react';
-import AuthStorageIDB from './AuthStorageIDB';
+import {AuthStorageIDB} from '@systemdesignpartners/cognito-auth-storage';
 import {withCognitoHUI} from '@systemdesignpartners/cognito-hoc';
 
 

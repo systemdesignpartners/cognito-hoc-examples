@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React, { Component } from 'react';
-import AuthStorageMemory from './AuthStorageMemory';
+import {AuthStorageMemory} from '@systemdesignpartners/cognito-auth-storage';
 import {withCognitoHUI} from '@systemdesignpartners/cognito-hoc';
 
 
