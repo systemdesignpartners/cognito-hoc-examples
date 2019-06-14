@@ -18,7 +18,7 @@ class AppButtonMemoryStorage extends Component {
     const { authStorageInfo, myProp1, myProp2 } = this.props;
 
     return (
-      <div>
+      <div className='AppButtonMemoryStorage'>
         <p>
           Hello! This App wants to use our AuthStorageMemory class for its Auth storage
           mechanism. This is an in-memory store, which means that Authentication

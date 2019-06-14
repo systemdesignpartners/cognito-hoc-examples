@@ -1,9 +1,9 @@
 {
   "name": "@systemdesignpartners/cognito-hoc-examples",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Examples using the withCognitoHUI Higher Order Component for ReactJS (from the cognito-hoc repo)",
   "dependencies": {
-    "@systemdesignpartners/cognito-hoc": "^1.0.4",
+    "@systemdesignpartners/cognito-hoc": "^1.0.8",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"

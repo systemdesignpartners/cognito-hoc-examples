@@ -18,7 +18,7 @@ class AppTimerIDBStorage extends Component {
     const { authStorageInfo, myProp1, myProp2 } = this.props;
 
     return (
-      <div>
+      <div className='AppTimerIDBStorage'>
         <p>
           Hello! This App wants to use our AuthStorageIDB class for its Auth storage
           mechanism. This uses IndexedDb for Auth storage. It behaves similarly to

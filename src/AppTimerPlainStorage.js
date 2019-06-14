@@ -17,7 +17,7 @@ class AppTimerPlainStorage extends Component {
     const { authStorageInfo, myProp1, myProp2 } = this.props;
 
     return (
-      <div>
+      <div className='AppTimerPlainStorage'>
         <p>Hello! This App wants to use the Amplify default Auth storage mechanism.</p>
         <p>
           The actual storage used was

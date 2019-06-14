@@ -18,7 +18,7 @@ class AppTimerMemoryStorage extends Component {
     const { authStorageInfo, myProp1, myProp2 } = this.props;
 
     return (
-      <div>
+      <div className='AppTimerMemoryStorage'>
         <p>
           Hello! This App uses our AuthStorageMemory class for its Auth storage
           mechanism. This is an in-memory store, which means that Authentication
