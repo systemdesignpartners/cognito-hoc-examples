@@ -1,0 +1,46 @@
+{
+  "name": "@systemdesignpartners/cognito-hoc-examples",
+  "version": "0.1.0",
+  "description": "Examples using the withCognitoHUI Higher Order Component for ReactJS (from the cognito-hoc repo)",
+  "private": true,
+  "dependencies": {
+    "@systemdesignpartners/cognito-hoc": "^1.0.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start1": "cp src/index1.js src/index.js; react-scripts start",
+    "start2": "cp src/index2.js src/index.js; react-scripts start",
+    "start3": "cp src/index3.js src/index.js; react-scripts start",
+    "start4": "cp src/index4.js src/index.js; react-scripts start",
+    "start5": "cp src/index5.js src/index.js; react-scripts start",
+    "start6": "cp src/index6.js src/index.js; react-scripts start"
+  },
+  "author": "System Design Partners<contact@sdpartners.com> (https://sdpartners.com)",
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "homepage": "https://github.com/systemdesignpartners/cognito-hoc-examples#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/systemdesignpartners/cognito-hoc-examples.git"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
