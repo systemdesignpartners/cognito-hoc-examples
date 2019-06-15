@@ -2,9 +2,8 @@
 import React, { Component } from 'react';
 import {withCognitoHUI} from '@systemdesignpartners/cognito-hoc';
 
-
 // Import our Amplify configuration file
-import awsmobile from './aws-exports';
+import awsconfig from './config/aws-exports';
 
 // Leave the .storage property undefined. We are using Amplify's default
 // storage mechanism (Amplify for JS prefers the browser's localStorage)
@@ -45,4 +44,4 @@ class AppButtonPlainStorage extends Component {
 }
 
 // Export the App, wrapped by the Cognito HOC, using the 'button' configuration
-export default withCognitoHUI(AppButtonPlainStorage, awsmobile, 'button');
+export default withCognitoHUI(AppButtonPlainStorage, awsconfig, 'button');

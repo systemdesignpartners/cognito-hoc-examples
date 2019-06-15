@@ -3,13 +3,11 @@ import React, { Component } from 'react';
 import {AuthStorageIDB} from '@systemdesignpartners/cognito-auth-storage';
 import {withCognitoHUI} from '@systemdesignpartners/cognito-hoc';
 
-
-
 // Import our Amplify configuration file
-import awsmobile from './aws-exports';
+import awsconfig from './config/aws-exports';
 
 // Set its Auth.storage property to our customized In-memory Storage object
-awsmobile.storage = new AuthStorageIDB();
+awsconfig.storage = new AuthStorageIDB();
 
 
 // eslint-disable-next-line react/prefer-stateless-function
@@ -55,4 +53,4 @@ class AppTimerIDBStorage extends Component {
 
 
 // Export the App, wrapped by the Cognito HOC, using the 'timer' configuration
-export default withCognitoHUI(AppTimerIDBStorage, awsmobile, 'timer', 1300);
+export default withCognitoHUI(AppTimerIDBStorage, awsconfig, 'timer', 1300);

@@ -2,10 +2,8 @@
 import React, { Component } from 'react';
 import {withCognitoHUI} from '@systemdesignpartners/cognito-hoc';
 
-
-
 // Import our Amplify configuration file
-import awsmobile from './aws-exports';
+import awsconfig from './config/aws-exports';
 
 // Leave the .storage property undefined. We are using Amplify's default
 // storage mechanism (Amplify for JS prefers the browser's localStorage)
@@ -48,4 +46,4 @@ class AppTimerPlainStorage extends Component {
 
 
 // Export the App, wrapped by the Cognito HOC, using the 'timer' configuration
-export default withCognitoHUI(AppTimerPlainStorage, awsmobile, 'timer', 1300);
+export default withCognitoHUI(AppTimerPlainStorage, awsconfig, 'timer', 1300);

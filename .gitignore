@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# Very important - do not write our config files to git
+/src/config/*
+
 # dependencies
 /node_modules
 /.pnp
