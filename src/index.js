@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './App.css';
-import AppButtonMemoryStorage from './AppButtonMemoryStorage';
+import AppTimerIDBStorage from './AppTimerIDBStorage';
 
-ReactDOM.render(<AppButtonMemoryStorage myProp1="TestProp1" myProp2="Test Prop 2" />, document.getElementById('root'));
+ReactDOM.render(<AppTimerIDBStorage myProp1="TestProp1" myProp2="Test Prop 2" />, document.getElementById('root'));
 
