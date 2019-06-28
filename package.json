@@ -1,10 +1,10 @@
 {
   "name": "cognito-hoc-examples",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "description": "Examples using the withCognitoHUI Higher Order Component for ReactJS (from the cognito-hoc repo)",
   "dependencies": {
     "cognito-auth-storage": "^1.1.2",
-    "cognito-hoc": "^1.1.2",
+    "cognito-hoc": "^1.1.4",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-scripts": "3.0.1"
