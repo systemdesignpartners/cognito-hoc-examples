@@ -7,8 +7,10 @@ Examples using the withCognitoHUI Higher Order Component for ReactJS (from the h
 You **must** have already configured the Cognito backend. See https://www.sdpartners.com/blog/cognito-hoc for instructions. After that, to setup the app and run the first example:
 ```
 git clone <this repo>
+cd cognito-hoc-examples
 npm install
-<put your aws-exports.js into the src/config folder>
+mkdir src/config
+<copy your aws-exports.js into the src/config folder>
 npm run start1
 ```
 
