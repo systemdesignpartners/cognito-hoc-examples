@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import {AuthStorageMemory} from '@systemdesignpartners/cognito-auth-storage';
-import {withCognitoHUI} from '@systemdesignpartners/cognito-hoc';
+import {AuthStorageMemory} from 'cognito-auth-storage';
+import {withCognitoHUI} from 'cognito-hoc';
 
 // Import our Amplify configuration file
 import awsconfig from './config/aws-exports';

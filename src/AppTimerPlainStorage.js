@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React, { Component } from 'react';
-import {withCognitoHUI} from '@systemdesignpartners/cognito-hoc';
+import {withCognitoHUI} from 'cognito-hoc';
 
 // Import our Amplify configuration file
 import awsconfig from './config/aws-exports';
